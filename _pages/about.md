@@ -9,19 +9,19 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>3107 Siebel Center</p>
+    <p>Urbana, IL, 61801</p>
+
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Greetings! I’m a Ph.D. student at Siebel School of Computing and Data Science in University of Illinois Urbana-Champaign, advised by Prof. Fan Lai(http://fanlai.me).
+Greetings! I’m a Ph.D. student at Siebel School of Computing and Data Science in University of Illinois Urbana-Champaign, advised by Prof. [Fan Lai](http://fanlai.me).
 
-I received my Bachelor's degree in Computer Science from Georgia Institute of Technology, where I am very fortunate to work with Prof. Tuo Zhao. I am also very fortunate to spend a wonderful summer with Dr. Gan Yu and prof. Fan Lai as a student researcher in System Research@Google last summer. 
+I received my Bachelor's degree in Computer Science from Georgia Institute of Technology, where I am very fortunate to work with Prof. [Tuo Zhao](https://www2.isye.gatech.edu/~tzhao80/). I am also very fortunate to spend a wonderful summer with Dr. [Gan Yu](https://gy1005.github.io/) and prof. [Fan Lai](http://fanlai.me) as a student researcher in Systems Research@Google in summer 2024. 
 
-My research interests lie in building efficient systems for supporting large language models. 
+My research interests lie in building efficient systems for supporting large language models and GenAI. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
