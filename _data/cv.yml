@@ -7,6 +7,8 @@
       value: Novemeber 30, 2001
     - name: Languages
       value: English, Chinese
+    - name: Phone number
+      value: 470-845-7356
 
 - title: Education
   type: time_table
@@ -41,50 +43,49 @@
         - Working on efficient LLM serving system and GenAI
        
     - title: Student Researcher 
-      title: Systems Research@Google
+      institution: Systems Research@Google
       year: 2024.5 - 2024.7
       description:
-        -Working on efficient LLM serving system and GenAI
+        - Working on efficient LLM serving system and GenAI
 
     - title: Research Assistant
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+      institution: Georgia Institute of Technology
+      year: 2021.10 - 2024.5
       description:
+        - title: Increasing efficiency of LLMs
+          contents:
+          - Model compression with low rank approximation and pruning methods
+          - Quantization
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Data Scientist Intern
+      institution: The Home Depot
+      year: 2022.5 - 2022.7
+      description:
+        - Working on effective retrieval with LLM
 
 
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Presidential Undergraduate Research Award
+    - year: 2020,2021,2022,2023
       items:
-        - Max Planck Medal
+        - Faculty Honor
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Systems for machine learning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Efficient system for serving LLM and GenAI
+        - Quantization
+        - Compression
+    
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Cooking, Work out, board games
