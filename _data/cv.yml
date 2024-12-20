@@ -46,7 +46,7 @@
       institution: Systems Research@Google
       year: 2024.5 - 2024.7
       description:
-        - Working on efficient LLM serving system and GenAI
+        - Working on efficient LLM serving system
 
     - title: Research Assistant
       institution: Georgia Institute of Technology
@@ -71,7 +71,7 @@
     - year: 2024
       items:
         - Presidential Undergraduate Research Award
-    - year: 2020,2021,2022,2023
+    - year: 2020-2023
       items:
         - Faculty Honor
 
