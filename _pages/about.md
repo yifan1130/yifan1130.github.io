@@ -21,7 +21,7 @@ Greetings! I’m a Ph.D. student at Siebel School of Computing and Data Science 
 
 I received my Bachelor's degree in Computer Science from Georgia Institute of Technology, where I am very fortunate to work with Prof. [Tuo Zhao](https://www2.isye.gatech.edu/~tzhao80/). I am also very fortunate to spend a wonderful summer with Dr. [Yu Gan](https://gy1005.github.io/) and Prof. [Fan Lai](http://fanlai.me) as a student researcher in Systems Research@Google in summer 2024, and with Dr. [Moyan Li](https://www.linkedin.com/in/moyan-li-628305195/) and Dr. [Shaoyuan Xu](https://www.linkedin.com/in/shaoyuan-xu-1301a0174/) as an applied scientist intern in Amazon in summer 2025. 
 
-My research interests lie in building efficient systems for supporting large language models, multi-agent systems, and GenAI. 
+My research interests lie in building efficient systems for supporting large language models, multi-agent systems, and GenAI. Our work has been trialed in real-world deployments.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
