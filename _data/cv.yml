@@ -36,12 +36,18 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research Assistant
+   - title: Research Assistant
       institution: University of Illinois Urbana-Champaign
       year: 2024 - Present
       description:
         - Working on efficient LLM serving system, multi-agent systems, and GenAI
-       
+
+    - title: Applied Scientist Intern
+      institution: Amazon
+      year: 2025.5 - 2025.8
+      description:
+        - Working on multi-agent systems
+               
     - title: Student Researcher 
       institution: Systems Research@Google
       year: 2024.5 - 2024.7
