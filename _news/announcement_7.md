@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Released <a href="https://yifan1130.github.io/projects/introspective-diffusion-lm/">I-DLM</a>: the first diffusion language model to match AR-thinking model quality, achieving 69.6 on AIME-24 with 2.9–4.1x throughput
+Released <a href="https://introspective-diffusion.github.io/">I-DLM</a>: the first diffusion language model to match AR-thinking model quality, achieving 69.6 on AIME-24 with 2.9–4.1x throughput
