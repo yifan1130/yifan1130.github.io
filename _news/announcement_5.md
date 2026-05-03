@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper IC-Cache: Efficient Large Language Model Serving via In-context Caching got accepted to SOSP'25
+Paper <a href="https://arxiv.org/pdf/2501.12689">IC-Cache: Efficient Large Language Model Serving via In-context Caching</a> got accepted to SOSP'25

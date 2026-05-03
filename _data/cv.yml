@@ -87,10 +87,10 @@
       items:
         - Faculty Honor
 
-- title: Efficient and Intelligent Generative AI
+- title: Research Interest
   type: nested_list
   contents:
-    - title: Systems for machine learning
+    - title: Efficient and Intelligent Generative AI
       items:
         - Efficient system for serving LLM and GenAI
         - Quantization
