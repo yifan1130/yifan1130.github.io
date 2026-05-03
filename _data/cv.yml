@@ -42,6 +42,12 @@
       description:
         - Working on efficient LLM serving system, multi-agent systems, and GenAI
 
+    - title: Research Intern (Part-time)
+      institution: Together AI
+      year: 2026 - Present
+      description:
+        - Working on diffusion language models and generative AI
+
     - title: Applied Scientist Intern
       institution: Amazon
       year: 2025.5 - 2025.8
@@ -81,7 +87,7 @@
       items:
         - Faculty Honor
 
-- title: Academic Interests
+- title: Efficient and Intelligent Generative AI
   type: nested_list
   contents:
     - title: Systems for machine learning
@@ -89,6 +95,7 @@
         - Efficient system for serving LLM and GenAI
         - Quantization
         - Compression
+        - Diffusion language model
     
 
 - title: Other Interests
