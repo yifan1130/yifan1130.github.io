@@ -3,14 +3,14 @@
 
 @article{yu2026orl,
   title={On-Policy Residual Learning for Diffusion Language Models},
-  author={Yu, Yifan* and Jian, Yuqing* and Li, Jisen* and Hu, Yuezhou and Zhang, Tianyi
+  author={Yu*, Yifan and Jian*, Yuqing and Li*, Jisen and Hu, Yuezhou and Zhang, Tianyi
           and Wu, Xiaoxia and Zhu, Rui-Jie and Wang, Junxiong and Zhou, Zhongzhu
           and Lai, Fan and Zou, James and Xu, Chenfeng},
   journal={arXiv preprint arXiv:2610.20687},
   year={2026},
   url={https://arxiv.org/abs/2610.20687},
   arxiv={2610.20687},
-  html={https://introspective-diffusion.github.io/orl-dlm/},
+  website={https://introspective-diffusion.github.io/orl-dlm/},
   code={https://github.com/Introspective-Diffusion/ORL},
   abstract={Residual context is key to unlocking the speed-quality Pareto frontier of diffusion language models (DLMs) by carrying forward predictive distributions across denoising steps. Yet turning this seemingly simple mechanism into an effective learning paradigm is far from simple: there is no clear recipe for how residual context should be learned. We introduce ORL, a framework for on-policy residual learning in DLMs. Algorithmically, we identify that residual learning is inherently on-policy. ORL learns from model-induced residual trajectories on the fly and introduces an entropy-contraction objective that sharpens predictions as the model revisits its own predictions. System-wise, exact residual supervision requires capturing, retaining, and reprocessing many trajectory-dependent states. ORL co-designs the algorithm with asynchronous residual capture and transport, specialized block-diffusion attention, and packed compute-balanced training, making it practical at scale. On a 4B DLM converted from Qwen3-4B, ORL improves tokens per forward (TPF) by up to 6.2x and, with our dlmrt engine, end-to-end throughput by approximately 6.9x at comparable or better quality. In single-request serving on one H100, this mode achieves a stronger speed-quality Pareto frontier than autoregressive models with EAGLE3 and DFlash speculative decoding under both strict and relaxed verification, running 1.74x faster than DFlash at matched accuracy. ORL also transfers to existing DLMs: on LLaDA-2.1-mini, 36 H100-hours and 4.2M self-generated tokens, about 10x less data than prior LLaDA recipes, yield up to 1.5x higher TPF and up to 3x higher throughput at comparable quality, and on DiffusionGemma, ORL raises TPF by 1.1-1.2x. With dlmrt and NVFP4 quantization, ORL models decode a single request at up to 5,046 tokens/s on one B200, 7,708 on eight B200s, and 2,788 on a consumer RTX 5090, with comparable quality.},
   preview={orl.png},
@@ -18,9 +18,19 @@
   annotation={* Equal contribution},
 }
 
+@article{xu2026qatfactory,
+  title={QATFactory: A Versatile, Deployment-Aligned Framework for Quantization-aware Training and Distillation of LLMs},
+  author={Xu, Weili and Li, Jisen and Jian, Yuqing and Li, Chenxi and Sha, Zhizhou and Yu, Yifan
+          and Wu, Qingyang and Xu, Chenfeng and Zhou, Zhongzhu and Zhang, Tianyi and Athiwaratkun, Ben},
+  journal={arXiv preprint arXiv:2609.39223},
+  year={2026},
+  url={https://arxiv.org/abs/2609.39223},
+  arxiv={2609.39223},
+}
+
 @inproceedings{yu2026introspective,
   title={Introspective Diffusion Language Models},
-  author={Yu, Yifan* and Jian, Yuqing* and Wang, Junxiong and Zhou, Zhongzhu
+  author={Yu*, Yifan and Jian*, Yuqing and Wang, Junxiong and Zhou, Zhongzhu
           and Zhuang, Donglin and Fang, Xinyu and Yanamandra, Sri
           and Wu, Xiaoxia and Wu, Qingyang and Song, Shuaiwen Leon
           and Dao, Tri and Athiwaratkun, Ben and Zou, James
@@ -28,7 +38,9 @@
   booktitle={Conference on Language Modeling},
   year={2026},
   url={https://arxiv.org/abs/2604.11035},
-  html={https://introspective-diffusion.github.io/},
+  arxiv={2604.11035},
+  website={https://introspective-diffusion.github.io/},
+  code={https://github.com/Introspective-Diffusion/I-DLM},
   abstract={Diffusion language models (DLMs) offer a compelling promise: parallel token generation could break the sequential bottleneck of autoregressive (AR) decoding. Yet in practice, DLMs consistently lag behind AR models in quality. We argue that this gap stems from a fundamental failure of introspective consistency: AR models agree with what they generate, whereas DLMs often do not. We introduce the Introspective Diffusion Language Model (I-DLM), which uses introspective strided decoding (ISD) to verify previously generated tokens while advancing new ones in the same forward pass. Empirically, I-DLM-8B is the first DLM to match the quality of its same-scale AR counterpart, outperforming LLaDA-2.1-mini (16B) by +26 on AIME-24 and +15 on LiveCodeBench-v6 with half the parameters, while delivering 2.9-4.1x throughput at high concurrency. With gated LoRA, ISD enables bit-for-bit lossless acceleration.},
   preview={idlm.png},
   selected={true},
@@ -38,13 +50,16 @@
 }
 
 @article{li2023loftq,
-  title={Loftq: Lora-fine-tuning-aware quantization for large language models},
-  author={Li, Yixiao* and Yu, Yifan* and Liang, Chen and He, Pengcheng and Karampatziakis, Nikos and Chen, Weizhu and Zhao, Tuo},
+  title={LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models},
+  author={Li*, Yixiao and Yu*, Yifan and Liang, Chen and He, Pengcheng and Karampatziakis, Nikos and Chen, Weizhu and Zhao, Tuo},
   journal={The Twelfth International Conference on Learning Representations},
   year={2024},
+  url={https://arxiv.org/abs/2310.08659},
+  arxiv={2310.08659},
+  code={https://github.com/yxli2123/LoftQ},
   preview={loftq.png},
   selected={true},
-  annotation={* Example Contribution},
+  annotation={* Equal contribution},
   award={About 1 percent of the submissions are selected as oral presentation},
   award_name={Oral Presentation}
 }
@@ -55,34 +70,46 @@
   booktitle={International Conference on Machine Learning},
   year={2026},
   url={https://arxiv.org/abs/2509.24088},
-  html={https://arxiv.org/abs/2509.24088},
+  arxiv={2509.24088},
+  code={https://github.com/UIUC-MLSys/CORRECT},
   preview={correct.png},
   selected={true},
 }
 
 @inproceedings{bamba2025xrpo,
   title={XRPO: Pushing the limits of GRPO with Targeted Exploration and Exploitation},
-  author={Bamba, Udbhav* and Fang, Minghao* and Yu, Yifan* and Zheng, Haizhong and Lai, Fan},
+  author={Bamba*, Udbhav and Fang*, Minghao and Yu*, Yifan and Zheng, Haizhong and Lai, Fan},
   booktitle={International Conference on Machine Learning},
   year={2026},
   url={https://arxiv.org/abs/2510.06672},
-  html={https://arxiv.org/abs/2510.06672},
+  arxiv={2510.06672},
+  code={https://github.com/UIUC-MLSys/XRPO},
   preview={xrpo.png},
   selected={true},
   annotation={* Equal contribution},
 }
 
+@inproceedings{bie2026osprey,
+  title={Osprey: Target-agnostic Pre-training Makes Stronger Drafters in Speculative Decoding},
+  author={Bie*, Fengxiang and Jian*, Yuqing and Yu, Yifan and Zhou, Zhongzhu and Shao, Zelei
+          and Athiwaratkun, Ben and Song, Shuaiwen Leon and Xu, Chenfeng and Wu, Xiaoxia and Zhang, Tianyi},
+  booktitle={Conference on Empirical Methods in Natural Language Processing},
+  year={2026},
+  annotation={* Equal contribution},
+}
+
 @inproceedings{yan2025oppo,
   title={OPPO: Accelerating PPO-based RLHF via Pipeline Overlap},
-  author={Yan, Kaizhuo and Yu, Yingjie and Yu, Yifan and Zheng, Haizhong and Lai, Fan},
+  author={Yan*, Kaizhuo and Yu*, Yingjie and Yu, Yifan and Zheng, Haizhong and Lai, Fan},
   booktitle={International Conference on Learning Representations},
   year={2026},
   url={https://arxiv.org/abs/2509.25762},
-  html={https://arxiv.org/abs/2509.25762},
+  arxiv={2509.25762},
+  annotation={* Equal contribution},
 }
 
 @inproceedings{10.1145/3731569.3764829,
-author = {Yu, Yifan* and Gan, Yu* and Sarda, Nikhil and Tsai, Lillian and Shen, Jiaming and Zhou, Yanqi and Krishnamurthy, Arvind and Lai, Fan and Levy, Hank and Culler, David},
+author = {Yu*, Yifan and Gan*, Yu and Sarda, Nikhil and Tsai, Lillian and Shen, Jiaming and Zhou, Yanqi and Krishnamurthy, Arvind and Lai, Fan and Levy, Hank and Culler, David},
 title = {IC-Cache: Efficient Large Language Model Serving via In-context Caching},
 year = {2025},
 isbn = {9798400718700},
@@ -101,17 +128,30 @@ preview={echolm.png},
 award_name={31st SOSP},
 award={Acceptance rate: 17 percent},
 selected={true},
-annotation={* Example Contribution},
+annotation={* Equal contribution},
+}
+
+@article{gao2025single,
+  title={Single-agent or Multi-agent Systems? Why Not Both?},
+  author={Gao*, Mingyan and Li*, Yanzi and Liu*, Banruo and Yu, Yifan and Wang, Phillip and Lin, Ching-Yu and Lai, Fan},
+  journal={arXiv preprint arXiv:2505.18286},
+  year={2025},
+  url={https://arxiv.org/abs/2505.18286},
+  arxiv={2505.18286},
+  annotation={* Equal contribution},
 }
 
 @inproceedings{li2023losparse,
-  title={Losparse: Structured compression of large language models based on low-rank and sparse approximation},
-  author={Li, Yixiao* and Yu, Yifan* and Zhang, Qingru and Liang, Chen and He, Pengcheng and Chen, Weizhu and Zhao, Tuo},
+  title={LoSparse: Structured Compression of Large Language Models Based on Low-Rank and Sparse Approximation},
+  author={Li*, Yixiao and Yu*, Yifan and Zhang, Qingru and Liang, Chen and He, Pengcheng and Chen, Weizhu and Zhao, Tuo},
   booktitle={International Conference on Machine Learning},
   pages={20336--20350},
   year={2023},
+  url={https://arxiv.org/abs/2306.11222},
+  arxiv={2306.11222},
+  code={https://github.com/yxli2123/LoSparse},
   organization={PMLR},
-  annotation={* Example Contribution},
+  annotation={* Equal contribution},
   preview={losparse.png},
   selected={true},
 }
