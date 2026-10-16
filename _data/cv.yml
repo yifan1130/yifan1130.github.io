@@ -4,7 +4,7 @@
     - name: Name
       value: Yifan Yu
     - name: Date of Birth
-      value: Novemeber 30, 2001
+      value: November 30, 2001
     - name: Languages
       value: English, Chinese
     - name: Phone number
@@ -17,48 +17,55 @@
       institution: University of Illinois Urbana-Champaign
       year: 2024 - Present
       description:
-        - Computer Science
-        # - Description 2.
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
+        - Computer Science, Siebel School of Computing and Data Science
     - title: Bachelor of Science
       institution: Georgia Institute of Technology
       year: 2020 - 2024
       description:
         - Computer Science
-        - title: Concentration
+        - title: Threads
           contents:
-            - Intelligence & Info network
-      
+            - Intelligence & Info Internetworks
 
 - title: Experience
   type: time_table
   contents:
+    - title: Research Intern (Part-time)
+      institution: Together AI
+      year: 2026.8 - Present
+      description:
+        - Working on efficient reinforcement learning for agentic diffusion language models and on combining looped Transformers with diffusion language modeling
+
     - title: Research Assistant
       institution: University of Illinois Urbana-Champaign
       year: 2024 - Present
       description:
-        - Working on efficient LLM serving system, multi-agent systems, and GenAI
+        - Working on efficient LLM serving, post-training, and multi-agent systems, advised by Prof. Fan Lai
+
+    - title: Research Intern
+      institution: Together AI
+      year: 2026.5 - 2026.8
+      description:
+        - Led ORL (on-policy residual learning), co-designing the algorithm, training system, and inference engine for diffusion language models
+        - Single-request decoding 1.74x faster than speculative decoding (DFlash) at matched accuracy; up to 2,788 tokens/s on one RTX 5090 and 7,708 tokens/s on 8x B200
 
     - title: Research Intern (Part-time)
       institution: Together AI
-      year: 2026 - Present
+      year: 2026.1 - 2026.5
       description:
-        - Working on diffusion language models and generative AI
+        - Worked on introspective diffusion language models (I-DLM)
 
     - title: Applied Scientist Intern
       institution: Amazon
       year: 2025.5 - 2025.8
       description:
-        - Working on multi-agent systems
+        - Worked on automatic error attribution for multi-agent systems
 
-    - title: Student Researcher 
+    - title: Student Researcher
       institution: Systems Research@Google
       year: 2024.5 - 2024.7
       description:
-        - Working on efficient LLM serving system
+        - Worked on efficient LLM serving systems
 
     - title: Research Assistant
       institution: Georgia Institute of Technology
@@ -73,30 +80,37 @@
       institution: The Home Depot
       year: 2022.5 - 2022.7
       description:
-        - Working on effective retrieval with LLM
-
-
+        - Worked on effective retrieval with LLMs
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - COLM Oral Presentation (24 out of 2,900+ submissions)
     - year: 2024
       items:
+        - ICLR Oral Presentation (86 out of 7,300+ submissions)
         - Presidential Undergraduate Research Award
     - year: 2020-2023
       items:
         - Faculty Honor
 
-- title: Research Interest
+- title: Service
+  type: list
+  contents:
+    - "Reviewer: NeurIPS 2025, ICLR 2026, ICML 2026, COLM 2026, NeurIPS 2026"
+
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Efficient and Intelligent Generative AI
+    - title: Efficient machine learning, particularly efficient training and inference
       items:
-        - Efficient system for serving LLM and GenAI
-        - Quantization
-        - Compression
-        - Diffusion language model
-    
+        - Diffusion language models
+        - Multi-agent systems
+        - Reinforcement learning
+        - Large language models
+        - Inference systems
 
 - title: Other Interests
   type: list
